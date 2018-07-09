@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
 
-class Apparel extends Component {
+class SearchBar extends Component {
   render() {
     return (
-      <div className="Apparel">
+      <div className="SearchBar">
 
       </div>
     );
   }
 }
 
-export default Apparel;
+export default SearchBar;

@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
 
-class Cosmetics extends Component {
+class ProductCard extends Component {
   render() {
     return (
-      <div className="Cosmetics">
+      <div className="ProductCard">
 
       </div>
     );
   }
 }
 
-export default Cosmetics;
+export default ProductCard;

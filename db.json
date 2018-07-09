@@ -1,39 +1,748 @@
 {
     "arrayOfProducts": [
         {
+
+            "id": 105,
             "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/M63H24W7JF0-L302-ALTGHOST?wid=1500&fmt=jpeg&qlt=80&op_sharpen=0&op_usm=1.0,1.0,5,0&iccEmbed=0
 https://guesseu.scene7.com/is/image/GuessEU/M63H24W7JF0-L302-ALTGHOST?wid=1500&fmt=jpeg&qlt=80&op_sharpen=0&op_usm=1.0,1.0,5,0&iccEmbed=0
 ",
+            "department": "Apparel",
             "name": "CHECK PRINT SHIRT",
             "price": 110
         },
         {
+
+            "id": 104,
             "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/FLGLO4FAL12-BEIBR?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0
 https://guesseu.scene7.com/is/image/GuessEU/FLGLO4FAL12-BEIBR?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0
 ",
+            "department": "Apparel",
             "name": "GLORIA HIGH LOGO SNEAKER",
             "price": 91
         },
         {
+
+            "id": 103,
             "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/HWVG6216060-TAN?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0
 https://guesseu.scene7.com/is/image/GuessEU/HWVG6216060-TAN?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0
 ",
+            "department": "Apparel",
             "name": "CATE RIGID BAG",
             "price": 94.5
         },
         {
+
+            "id": 102,
             "imgUrl": "http://guesseu.scene7.com/is/image/GuessEU/WC0001FMSWC-G5?wid=520&fmt=jpeg&qlt=80&op_sharpen=0&op_usm=1.0,1.0,5,0&iccEmbed=0
 http://guesseu.scene7.com/is/image/GuessEU/WC0001FMSWC-G5?wid=520&fmt=jpeg&qlt=80&op_sharpen=0&op_usm=1.0,1.0,5,0&iccEmbed=0
 ",
+            "department": "Electronics",
             "name": "GUESS CONNECT WATCH",
             "price": 438.9
         },
         {
+
+            "id": 101,
             "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0
 https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0
 ",
+
+            "department": "Apparel",
             "name": "'70s RETRO GLAM KEFIAH",
             "price": 20
-        }
+        },
+      {
+        "id": 100,
+      "name": "Baseball",
+      "department": "Sports",
+      "price": 621.00,
+      "color": "white"
+    },
+    {
+      "id": 1,
+      "name": "Gorgeous Keyboard",
+      "department": "Electronics",
+      "price": 910.00,
+      "color": "black"
+    },
+    {
+      "id": 2,
+      "name": "Incredible Metal Chair",
+      "department": "HomeAppliance",
+      "price": 844.00,
+      "color": "metallic"
+    },
+    {
+      "id": 3,
+      "name": "Handcrafted Lamp",
+      "department": "Decorations",
+      "price": 660.00,
+      "color": "ivory"
+    },
+    {
+      "id": 4,
+      "name": "Incredible Pants",
+      "department": "Apparel",
+      "price": 405.00,
+      "color": "sky blue"
+    },
+    {
+      "id": 5,
+      "name": "Practical Soap",
+      "department": "Cosmetics",
+      "price": 738.00,
+      "color": "red"
+    },
+    {
+      "id": 6,
+      "name": "Sleek Concrete Spoon",
+      "department": "Decorations",
+      "price": 26.00,
+      "color": "silver"
+    },
+    {
+      "id": 7,
+      "name": "Rubber Pants",
+      "department": "Apparel",
+      "price": 537.00,
+      "color": "grey"
+    },
+    {
+      "id": 8,
+      "name": "Intelligent Bike",
+      "department": "Sports",
+      "price": 586.00,
+      "color": "green"
+    },
+    {
+      "id": 9,
+      "name": "Licensed Wooden Pizza",
+      "department": "Decorations",
+      "price": 510.00,
+      "color": "yellow"
+    },
+    {
+      "id": 10,
+      "name": "Metal Table",
+      "department": "HomeAppliance",
+      "price": 869.00,
+      "color": "tan"
+    },
+    {
+      "id": 12,
+      "name": "Front and Rear Brakes",
+      "department": "Automotive",
+      "price": 448.00,
+      "color": "blue"
+    },
+    {
+      "id": 13,
+      "name": "Handcrafted Steel Routers",
+      "department": "Automotive",
+      "price": 444.00,
+      "color": "silver"
+    },
+    {
+      "id": 14,
+      "name": "Unbranded Wooden Chair",
+      "department": "HomeAppliance",
+      "price": 966.00,
+      "color": "tan"
+    },
+    {
+      "id": 15,
+      "name": "Revlon Hair Color",
+      "department": "Cosmetics",
+      "price": 65.00,
+      "color": "pink"
+    },
+    {
+      "id": 16,
+      "name": "Fresh Computer",
+      "department": "Electronics",
+      "price": 392.00,
+      "color": "ivory"
+    },
+    {
+      "id": 17,
+      "name": "Golf Balls",
+      "department": "Sports",
+      "price": 153.00,
+      "color": "white"
+    },
+    {
+      "id": 18,
+      "name": "Fishing Kit",
+      "department": "Outdoors",
+      "price": 229.00,
+      "color": "teal"
+    },
+    {
+      "id": 19,
+      "name": "Fishing Bait",
+      "department": "Outdoors",
+      "price": 45.00,
+      "color": "sky blue"
+    },
+    {
+      "id": 20,
+      "name": "Rustic Wooden Table",
+      "department": "Decorations",
+      "price": 544.00,
+      "color": "tan"
+    },
+    {
+      "id": 21,
+      "name": "Incredible Gloves",
+      "department": "Sports",
+      "price": 692.00,
+      "color": "brown"
+    },
+    {
+      "id": 22,
+      "name": "Soft Soap",
+      "department": "Cosmetics",
+      "price": 792.00,
+      "color": "pink"
+    },
+    {
+      "id": 23,
+      "name": "Intelligent Fishing",
+      "department": "Outdoors",
+      "price": 55.00,
+      "color": "salmon"
+    },
+    {
+      "id": 24,
+      "name": "Tennis racket",
+      "department": "Sports",
+      "price": 143.00,
+      "color": "yellow"
+    },
+    {
+      "id": 25,
+      "name": "Skullcandy Headphones",
+      "department": "Electronics",
+      "price": 78.00,
+      "color": "purple"
+    },
+    {
+      "id": 26,
+      "name": "Rustic Antic Spoiler",
+      "department": "Decorations",
+      "price": 217.00,
+      "color": "blue"
+    },
+    {
+      "id": 27,
+      "name": "Wireless Keyboard",
+      "department": "Electronics",
+      "price": 169.00,
+      "color": "transparent"
+    },
+    {
+      "id": 28,
+      "name": "Fish Tank",
+      "department": "HomeAppliance",
+      "price": 734.00,
+      "color": "teal"
+    },
+    {
+      "id": 29,
+      "name": "Incredible Mouse",
+      "department": "Electronics",
+      "price": 550.00,
+      "color": "red"
+    },
+    {
+      "id": 30,
+      "name": "Mac Makeup Kit",
+      "department": "Cosmetics",
+      "price": 637.00,
+      "color": "black"
+    },
+    {
+      "id": 31,
+      "name": "Unbranded Shirt",
+      "department": "Apparel",
+      "price": 365.00,
+      "color": "red"
+    },
+    {
+      "id": 32,
+      "name": "Windshield Fluid",
+      "department": "Automotive",
+      "price": 573.00,
+      "color": "orange"
+    },
+    {
+      "id": 33,
+      "name": "Fresh Car Scent",
+      "department": "Automotive",
+      "price": 952.00,
+      "color": "lime"
+    },
+    {
+      "id": 34,
+      "name": "Small Cotton Towels",
+      "department": "HomeAppliance",
+      "price": 71.00,
+      "color": "white"
+    },
+    {
+      "id": 35,
+      "name": "Handmade Fresh Shoes",
+      "department": "Apparel",
+      "price": 751.00,
+      "color": "brown"
+    },
+    {
+      "id": 36,
+      "name": "Boxing Gloves",
+      "department": "Sports",
+      "price": 576.00,
+      "color": "purple"
+    },
+    {
+      "id": 37,
+      "name": "Future Soap",
+      "department": "Cosmetics",
+      "price": 528.00,
+      "color": "pink"
+    },
+    {
+      "id": 38,
+      "name": "Fresh Flowers",
+      "department": "Outdoors",
+      "price": 535.00,
+      "color": "red"
+    },
+    {
+      "id": 39,
+      "name": "Motor Bike",
+      "department": "Outdoors",
+      "price": 546.00,
+      "color": "black"
+    },
+    {
+      "id": 40,
+      "name": "Microfiber Towels",
+      "department": "Automotive",
+      "price": 229.00,
+      "color": "white"
+    },
+    {
+      "id": 41,
+      "name": "Rubber Tuna",
+      "department": "Outdoors",
+      "price": 369.00,
+      "color": "cyan"
+    },
+    {
+      "id": 42,
+      "name": "Small Loft",
+      "department": "HomeAppliance",
+      "price": 953.00,
+      "color": "black"
+    },
+    {
+      "id": 43,
+      "name": "L'Oreal Shampoo",
+      "department": "Cosmetics",
+      "price": 830.00,
+      "color": "white"
+    },
+    {
+      "id": 44,
+      "name": "Tasty Concrete Bike",
+      "department": "Decorations",
+      "price": 803.00,
+      "color": "violet"
+    },
+    {
+      "id": 45,
+      "name": "Gaming Computer",
+      "department": "Electronics",
+      "price": 644.00,
+      "color": "transparent"
+    },
+    {
+      "id": 46,
+      "name": "Beats by Dre",
+      "department": "Electronics",
+      "price": 192.00,
+      "color": "purple"
+    },
+    {
+      "id": 47,
+      "name": "Active Pants",
+      "department": "Apparel",
+      "price": 920.00,
+      "color": "sky blue"
+    },
+    {
+      "id": 48,
+      "name": "Softballs",
+      "department": "Sports",
+      "price": 713.00,
+      "color": "yellow"
+    },
+    {
+      "id": 49,
+      "name": "Refined Computer",
+      "department": "Electronics",
+      "price": 322.00,
+      "color": "black"
+    },
+    {
+      "id": 50,
+      "name": "Small Heater",
+      "department": "HomeAppliance",
+      "price": 609.00,
+      "color": "silver"
+    },
+    {
+      "id": 51,
+      "name": "TMT",
+      "department": "Apparel",
+      "price": 956.00,
+      "color": "white"
+    },
+    {
+      "id": 52,
+      "name": "Unbranded water",
+      "department": "HomeAppliance",
+      "price": 681.00,
+      "color": "clear"
+    },
+    {
+      "id": 53,
+      "name": "Handcrafted Hat",
+      "department": "Apparel",
+      "price": 569.00,
+      "color": "pink"
+    },
+    {
+      "id": 54,
+      "name": "Small Cotton Brush",
+      "department": "Cosmetics",
+      "price": 767.00,
+      "color": "brown"
+    },
+    {
+      "id": 55,
+      "name": "Camping Tent",
+      "department": "Outdoors",
+      "price": 350.00,
+      "color": "blue"
+    },
+    {
+      "id": 56,
+      "name": "Brake Fluid",
+      "department": "Automotive",
+      "price": 96.00,
+      "color": "red"
+    },
+    {
+      "id": 57,
+      "name": "Computer MotherBoard",
+      "department": "Electronics",
+      "price": 376.00,
+      "color": "grey"
+    },
+    {
+      "id": 58,
+      "name": "Awesome HDMI cable",
+      "department": "Electronics",
+      "price": 84.00,
+      "color": "lime"
+    },
+    {
+      "id": 59,
+      "name": "Awesome Plastic Ping Pong Balls",
+      "department": "Sports",
+      "price": 59.00,
+      "color": "orange"
+    },
+    {
+      "id": 60,
+      "name": "Awesome Metal Computer",
+      "department": "Decorations",
+      "price": 886.00,
+      "color": "black"
+    },
+    {
+      "id": 61,
+      "name": "Macbook Pro",
+      "department": "Electronics",
+      "price": 980.00,
+      "color": "silver"
+    },
+    {
+      "id": 62,
+      "name": "Tires",
+      "department": "Automotive",
+      "price": 838.00,
+      "color": "black"
+    },
+    {
+      "id": 63,
+      "name": "Table top",
+      "department": "HomeAppliance",
+      "price": 26.00,
+      "color": "white"
+    },
+    {
+      "id": 64,
+      "name": "Tint fiber",
+      "department": "Automotive",
+      "price": 697.00,
+      "color": "red"
+    },
+    {
+      "id": 65,
+      "name": "Addidas Hat",
+      "department": "Apparel",
+      "price": 414.00,
+      "color": "white"
+    },
+    {
+      "id": 66,
+      "name": "Bugs Remover",
+      "department": "Outdoors",
+      "price": 6.00,
+      "color": "yellow"
+    },
+    {
+      "id": 67,
+      "name": "Generic Steel Swing",
+      "department": "Outdoors",
+      "price": 756.00,
+      "color": "grey"
+    },
+    {
+      "id": 68,
+      "name": "Long Table",
+      "department": "HomeAppliance",
+      "price": 883.00,
+      "color": "brown"
+    },
+    {
+      "id": 69,
+      "name": "Fishing Nets",
+      "department": "Outdoors",
+      "price": 82.00,
+      "color": "black"
+    },
+    {
+      "id": 70,
+      "name": "Workout Gloves",
+      "department": "Sports",
+      "price": 27.00,
+      "color": "orange"
+    },
+    {
+      "id": 71,
+      "name": "Scratch Remover",
+      "department": "Automotive",
+      "price": 11.00,
+      "color": "plum"
+    },
+    {
+      "id": 72,
+      "name": "Granite Lion",
+      "department": "Decorations",
+      "price": 671.00,
+      "color": "white"
+    },
+    {
+      "id": 73,
+      "name": "Cargo Pants",
+      "department": "Apparel",
+      "price": 53.00,
+      "color": "tan"
+    },
+    {
+      "id": 74,
+      "name": "T.V mounter",
+      "department": "HomeAppliance",
+      "price": 79.00,
+      "color": "black"
+    },
+    {
+      "id": 75,
+      "name": "Leather Sofas",
+      "department": "HomeAppliance",
+      "price": 1770.00,
+      "color": "black"
+    },
+    {
+      "id": 76,
+      "name": "LG Refrigerator",
+      "department": "HomeAppliance",
+      "price": 510.00,
+      "color": "white"
+    },
+    {
+      "id": 77,
+      "name": "Echo",
+      "department": "Electronics",
+      "price": 214.00,
+      "color": "grey"
+    },
+    {
+      "id": 78,
+      "name": "Wiper Blades",
+      "department": "Automotive",
+      "price": 45.00,
+      "color": "blue"
+    },
+    {
+      "id": 79,
+      "name": "4K Monitor",
+      "department": "Electronics",
+      "price": 635.00,
+      "color": "black"
+    },
+    {
+      "id": 80,
+      "name": "Leather Cleaner",
+      "department": "Automotive",
+      "price": "9.00",
+      "color": "black"
+    },
+    {
+      "id": 81,
+      "name": "Facewash",
+      "department": "Cosmetics",
+      "price": 54.00,
+      "color": "green"
+    },
+    {
+      "id": 82,
+      "name": "Glass Table",
+      "department": "HomeAppliance",
+      "price": 450.00,
+      "color": "grey"
+    },
+    {
+      "id": 83,
+      "name": "Gucci Shirt",
+      "department": "Apparel",
+      "price": 672.00,
+      "color": "green"
+    },
+    {
+      "id": 84,
+      "name": "Elizabeth Arden Whitening Cream",
+      "department": "Cosmetics",
+      "price": 96.00,
+      "color": "white"
+    },
+    {
+      "id": 85,
+      "name": "KD Shoes",
+      "department": "Sports",
+      "price": 122.00,
+      "color": "yellow"
+    },
+    {
+      "id": 86,
+      "name": "LeBron James Sneakers",
+      "department": "Sports",
+      "price": 308.00,
+      "color": "black"
+    },
+    {
+      "id": 87,
+      "name": "Wooden Table",
+      "department": "HomeAppliance",
+      "price": 218.00,
+      "color": "brown"
+    },
+    {
+      "id": 88,
+      "name": "Small Mirror",
+      "department": "Cosmetics",
+      "price": 17.00,
+      "color": "red"
+    },
+    {
+      "id": 89,
+      "name": "Cosmetics Soap",
+      "department": "Cosmetics",
+      "price": 45.00,
+      "color": "pink"
+    },
+    {
+      "id": 90,
+      "name": "Stone Rooster",
+      "department": "Decorations",
+      "price": 984.00,
+      "color": "white"
+    },
+    {
+      "id": 91,
+      "name": "Fuel Injector",
+      "department": "Automotive",
+      "price": 19.00,
+      "color": "red"
+    },
+    {
+      "id": 92,
+      "name": "Granite Eagle",
+      "department": "Decorations",
+      "price": 704.00,
+      "color": "white"
+    },
+    {
+      "id": 93,
+      "name": "BBQ Grill",
+      "department": "Outdoors",
+      "price": 82.00,
+      "color": "red"
+    },
+    {
+      "id": 94,
+      "name": "Table Tennis Set",
+      "department": "Sports",
+      "price": 459.00,
+      "color": "black"
+    },
+    {
+      "id": 95,
+      "name": "Baseball Tee",
+      "department": "Sports",
+      "price": 21.00,
+      "color": "blue"
+    },
+    {
+      "id": 96,
+      "name": "Poland Spring Water",
+      "department": "HomeAppliance",
+      "price": 6.00,
+      "color": "green"
+    },
+    {
+      "id": 97,
+      "name": "Rocking Chair",
+      "department": "HomeAppliance",
+      "price": 90.00,
+      "color": "black"
+    },
+    {
+      "id": 98,
+      "name": "Polo Shirt",
+      "department": "Apparel",
+      "price": 90.00,
+      "color": "blue"
+    },
+    {
+      "id": 99,
+      "name": "Hair Conditioner",
+      "department": "Cosmetics",
+      "price": 41.00,
+      "color": "white"
+    }
     ]
 }
