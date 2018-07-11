@@ -9,7 +9,7 @@ class NavBar extends React.Component {
   render() {
     return (
       <div>
-        <Navbar brand='SuperStore' center='true' className="nav">
+        <Navbar brand='Optima' center='true' className="nav">
           <NavItem>Home</NavItem>
           <NavItem href='#'>Sign Up</NavItem>
           <NavItem href='#'>Cart</NavItem>
