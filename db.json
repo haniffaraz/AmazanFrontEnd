@@ -57,7 +57,7 @@
     {
       "id": 2,
       "name": "Incredible Metal Chair",
-      "department": "Home Appliances",
+      "department": "HomeAppliance",
       "price": 844.00,
       "color": "metallic"
     },
@@ -113,7 +113,7 @@
     {
       "id": 10,
       "name": "Metal Table",
-      "department": "Home Appliances",
+      "department": "HomeAppliance",
       "price": 869.00,
       "color": "tan"
     },
@@ -134,7 +134,7 @@
     {
       "id": 14,
       "name": "Unbranded Wooden Chair",
-      "department": "Home Appliances",
+      "department": "HomeAppliance",
       "price": 966.00,
       "color": "tan"
     },
@@ -218,7 +218,7 @@
     {
       "id": 26,
       "name": "Rustic Antic Spoiler",
-      "department": "Decorations",
+      "department": "Automotive",
       "price": 217.00,
       "color": "blue"
     },
@@ -232,13 +232,14 @@
     {
       "id": 28,
       "name": "Fish Tank",
-      "department": "Home Appliances",
+      "department": "Home Appliance",
       "price": 734.00,
       "color": "teal"
     },
     {
       "id": 29,
       "name": "Incredible Mouse",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqXRgvG37ppLBERaFfKe9dKZCjX5iX3trTemm2g37qbBLb5v6W",
       "department": "Electronics",
       "price": 550.00,
       "color": "red"
@@ -246,6 +247,7 @@
     {
       "id": 30,
       "name": "Mac Makeup Kit",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlxYk_oU2vfcnndo0wNqOSp6gyApSAGmUP65rZ_ChZQs4-stWC",
       "department": "Cosmetics",
       "price": 637.00,
       "color": "black"
@@ -253,6 +255,7 @@
     {
       "id": 31,
       "name": "Unbranded Shirt",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkkK_A-l4GOfE5NjAge7jWBRMfZm5O6_jd1JRw3Vo9JWamUB22dA",
       "department": "Apparel",
       "price": 365.00,
       "color": "red"
@@ -260,6 +263,7 @@
     {
       "id": 32,
       "name": "Windshield Fluid",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZmoIdQJjgcTb7Z407DIrEh9Xhv57MBwfmXJb6HEvNHVllRB5O",
       "department": "Automotive",
       "price": 573.00,
       "color": "orange"
@@ -267,6 +271,7 @@
     {
       "id": 33,
       "name": "Fresh Car Scent",
+      "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/71spzMWIZFL._AC_UL320_SR274,320_.jpg",
       "department": "Automotive",
       "price": 952.00,
       "color": "lime"
@@ -274,7 +279,8 @@
     {
       "id": 34,
       "name": "Small Cotton Towels",
-      "department": "Home Appliances",
+      "imgUrl": "https://c.shld.net/rpx/i/s/i/spin/0/prod_12392469512?hei=333&wid=333&op_sharpen=1",
+      "department": "HomeAppliance",
       "price": 71.00,
       "color": "white"
     },
@@ -330,7 +336,7 @@
     {
       "id": 42,
       "name": "Small Loft",
-      "department": "Home Appliances",
+      "department": "HomeAppliance",
       "price": 953.00,
       "color": "black"
     },
@@ -386,13 +392,14 @@
     {
       "id": 50,
       "name": "Small Heater",
-      "department": "Home Appliances",
+      "department": "HomeAppliance",
       "price": 609.00,
       "color": "silver"
     },
     {
       "id": 51,
       "name": "TMT",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Tcxj5ZmmfxUWcD4U3b5ICclISzD-KhsNb93uQ_pvkhORxl92",
       "department": "Apparel",
       "price": 956.00,
       "color": "white"
@@ -400,13 +407,15 @@
     {
       "id": 52,
       "name": "Unbranded water",
-      "department": "Home Appliances",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqc9jdWCKuNK6F5gIVEPW4SpBZafLemJJDSvJfyXgAzOnb7sTt6g",
+      "department": "HomeAppliance",
       "price": 681.00,
       "color": "clear"
     },
     {
       "id": 53,
       "name": "Handcrafted Hat",
+      "imgUrl": "https://img.etsystatic.com/il/abf7a1/1138485454/il_340x270.1138485454_neet.jpg?version=1",
       "department": "Apparel",
       "price": 569.00,
       "color": "pink"
@@ -414,6 +423,7 @@
     {
       "id": 54,
       "name": "Small Cotton Brush",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT__OYHwAU8whTMHaGbKaBGoXN-_Mqd70jF4mVvBaNH7ShlwugD",
       "department": "Cosmetics",
       "price": 767.00,
       "color": "brown"
@@ -421,6 +431,7 @@
     {
       "id": 55,
       "name": "Camping Tent",
+      "imgUrl": "https://i.ebayimg.com/thumbs/images/g/AGMAAOSwqWNbL5kl/s-l225.jpg",
       "department": "Outdoors",
       "price": 350.00,
       "color": "blue"
@@ -428,6 +439,7 @@
     {
       "id": 56,
       "name": "Brake Fluid",
+      "imgUrl": "http://www.pieces-auto-competition.com/2983-home_default/1336.jpg",
       "department": "Automotive",
       "price": 96.00,
       "color": "red"
@@ -435,6 +447,7 @@
     {
       "id": 57,
       "name": "Computer MotherBoard",
+      "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/61zizhqM97L._SX355_.jpg",
       "department": "Electronics",
       "price": 376.00,
       "color": "grey"
@@ -442,6 +455,7 @@
     {
       "id": 58,
       "name": "Awesome HDMI cable",
+      "imgUrl": "https://cdn3.volusion.com/prtdg.mwore/v/vspfiles/photos/HD-MMEQ-100-2T.jpg?1525850298",
       "department": "Electronics",
       "price": 84.00,
       "color": "lime"
@@ -449,6 +463,7 @@
     {
       "id": 59,
       "name": "Awesome Plastic Ping Pong Balls",
+      "imgUrl": "https://i.ebayimg.com/thumbs/images/m/mtFdqi7tQbx5NHko4-vVwpQ/s-l225.jpg",
       "department": "Sports",
       "price": 59.00,
       "color": "orange"
@@ -456,6 +471,7 @@
     {
       "id": 60,
       "name": "Awesome Metal Computer",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMr0FmvHIy_bAqarLoAHC73VkHsTmu9amM1iPwlBygQf182Dj6",
       "department": "Decorations",
       "price": 886.00,
       "color": "black"
@@ -463,6 +479,7 @@
     {
       "id": 61,
       "name": "Macbook Pro",
+      "imgUrl": "https://i.ebayimg.com/thumbs/images/g/XIcAAOSwezVW0yfo/s-l225.jpg",
       "department": "Electronics",
       "price": 980.00,
       "color": "silver"
@@ -470,6 +487,7 @@
     {
       "id": 62,
       "name": "Tires",
+      "imgUrl": "https://i.ebayimg.com/00/s/MTAxOFg3MjA=/z/tPEAAOSwYJNauTl6/$_35.JPG?set_id=8800005007",
       "department": "Automotive",
       "price": 838.00,
       "color": "black"
@@ -477,13 +495,15 @@
     {
       "id": 63,
       "name": "Table top",
-      "department": "Home Appliances",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJRrGqcKoMwserfPwg-5DxOj7q1thO45GQRzg4UlKrymA4hjxn",
+      "department": "HomeAppliance",
       "price": 26.00,
       "color": "white"
     },
     {
       "id": 64,
       "name": "Tint fiber",
+      "imgUrl": "https://i.ebayimg.com/thumbs/images/g/fEYAAOSwEQFZqXwW/s-l225.jpg",
       "department": "Automotive",
       "price": 697.00,
       "color": "red"
@@ -491,6 +511,7 @@
     {
       "id": 65,
       "name": "Addidas Hat",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTULBKB0RXf5VLxpZ1_LV0qfDKlmKhsuI0EBPtbzXZjoB__iYrNOg",
       "department": "Apparel",
       "price": 414.00,
       "color": "white"
@@ -498,6 +519,7 @@
     {
       "id": 66,
       "name": "Bugs Remover",
+      "imgUrl": "https://i5.walmartimages.com/asr/5f300d2a-e9de-4923-ae37-a468649307b6_1.802da345e37e5b549a701d6b7c5a199b.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
       "department": "Outdoors",
       "price": 6.00,
       "color": "yellow"
@@ -505,6 +527,7 @@
     {
       "id": 67,
       "name": "Generic Steel Swing",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWypjP5oDrxBRJ5CkrF0a1qfmPZKcQeJWMMjoC90r9mfO8cy_udA",
       "department": "Outdoors",
       "price": 756.00,
       "color": "grey"
@@ -512,13 +535,15 @@
     {
       "id": 68,
       "name": "Long Table",
-      "department": "Home Appliances",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHtd2LKGVYqM4QsyYfdQMLdrnRtJ1YiTlyq68mn41UOxrX3Wygw",
+      "department": "HomeAppliance",
       "price": 883.00,
       "color": "brown"
     },
     {
       "id": 69,
       "name": "Fishing Nets",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCI4WNLJCwebFbj0c-9orWdhZlgE9D9gbWxFeD0PzhXaXWEi5kqQ",
       "department": "Outdoors",
       "price": 82.00,
       "color": "black"
@@ -526,6 +551,7 @@
     {
       "id": 70,
       "name": "Workout Gloves",
+      "imgUrl": "https://i5.walmartimages.com/asr/a399d1a8-133a-4265-88c9-0b15cc882df7_1.f8bfe7ba1bf2e80147cf6964773bffe8.jpeg?odnWidth=180&odnHeight=180&odnBg=ffffff",
       "department": "Sports",
       "price": 27.00,
       "color": "orange"
@@ -533,6 +559,7 @@
     {
       "id": 71,
       "name": "Scratch Remover",
+      "imgUrl": "https://i.ebayimg.com/thumbs/images/g/jH4AAOSwBfdbM88x/s-l225.jpg",
       "department": "Automotive",
       "price": 11.00,
       "color": "plum"
@@ -540,6 +567,7 @@
     {
       "id": 72,
       "name": "Granite Lion",
+      "imgUrl": "https://i.ebayimg.com/thumbs/images/g/2b0AAOSwvoFakceF/s-l225.jpg",
       "department": "Decorations",
       "price": 671.00,
       "color": "white"
@@ -547,6 +575,7 @@
     {
       "id": 73,
       "name": "Cargo Pants",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7Qc-d4QdYYV8OjjLefvO3yAfNojATDvKVEmskoprJdM5BAl2Azg",
       "department": "Apparel",
       "price": 53.00,
       "color": "tan"
@@ -554,27 +583,31 @@
     {
       "id": 74,
       "name": "T.V mounter",
-      "department": "Home Appliances",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsobn583-1gBARVyU0Yp6ZG0VK68azRA5DOeWM69Kb_4Oo6KhW",
+      "department": "HomeAppliance",
       "price": 79.00,
       "color": "black"
     },
     {
       "id": 75,
       "name": "Leather Sofas",
-      "department": "Home Appliances",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUvXkezPDWrrY7Nn7hT3X1QPVVL_IpsO9y0hSez1gU08zeB679kQ",
+      "department": "HomeAppliance",
       "price": 1770.00,
       "color": "black"
     },
     {
       "id": 76,
       "name": "LG Refrigerator",
-      "department": "Home Appliances",
+      "imgUrl": "http://www.pricedealsindia.com/pdicontent/static/images/refrigerators/175x225/RFREFECANSZMZV8W.jpg",
+      "department": "HomeAppliance",
       "price": 510.00,
       "color": "white"
     },
     {
       "id": 77,
       "name": "Echo",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvPPO12LqPTP6XwZU8IEm4VORCsZG7o_sxY8QW9drmr6l8Zik7",
       "department": "Electronics",
       "price": 214.00,
       "color": "grey"
@@ -582,6 +615,7 @@
     {
       "id": 78,
       "name": "Wiper Blades",
+      "imgUrl": "https://i.ebayimg.com/thumbs/images/g/3rQAAOSwrklVCCPT/s-l225.jpg",
       "department": "Automotive",
       "price": 45.00,
       "color": "blue"
@@ -589,6 +623,7 @@
     {
       "id": 79,
       "name": "4K Monitor",
+      "imgUrl": "https://pc4u.org/wp-content/uploads/2016/01/dell-p2715q-monitor-overview2.jpg",
       "department": "Electronics",
       "price": 635.00,
       "color": "black"
@@ -596,6 +631,7 @@
     {
       "id": 80,
       "name": "Leather Cleaner",
+      "imgUrl": "https://i5.walmartimages.com/asr/95938781-fbf4-4e40-9f2c-6a0aac6c5067_1.8285e1b9e6faed59c2d556a9745e555e.jpeg?odnWidth=180&odnHeight=180&odnBg=ffffff",
       "department": "Automotive",
       "price": "9.00",
       "color": "black"
@@ -603,6 +639,7 @@
     {
       "id": 81,
       "name": "Facewash",
+      "imgUrl": "https://3.imimg.com/data3/FG/OK/MY-5231360/aloevera-face-wash-250x250.jpg",
       "department": "Cosmetics",
       "price": 54.00,
       "color": "green"
@@ -610,13 +647,15 @@
     {
       "id": 82,
       "name": "Glass Table",
-      "department": "Home Appliances",
+      "imgUrl": "https://www.ikea.com/PIAimages/0097185_PE237355_S3.JPG",
+      "department": "HomeAppliance",
       "price": 450.00,
       "color": "grey"
     },
     {
       "id": 83,
       "name": "Gucci Shirt",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn22ceHOLanIvt-BqO0znRrifMedU0tbGDtH0GGL30XhvfBmpN",
       "department": "Apparel",
       "price": 672.00,
       "color": "green"
@@ -624,6 +663,7 @@
     {
       "id": 84,
       "name": "Elizabeth Arden Whitening Cream",
+      "imgUrl": "https://res.cloudinary.com/feelunique-com/image/upload/f_auto,t_product_listing/v1/live/product/main-image/51876/lyy1zak9bwwbfqcezuhq.jpg",
       "department": "Cosmetics",
       "price": 96.00,
       "color": "white"
@@ -631,6 +671,7 @@
     {
       "id": 85,
       "name": "KD Shoes",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRreKddI64UlhRNKrFst82Qq0hpgVM10Tat4OnQAYFEo9wefqF",
       "department": "Sports",
       "price": 122.00,
       "color": "yellow"
@@ -638,6 +679,7 @@
     {
       "id": 86,
       "name": "LeBron James Sneakers",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWTbKz-KlbAxQBmcul3Rut2iD8xmD57rH3ZkWCD2BxOcQwfmbNaA",
       "department": "Sports",
       "price": 308.00,
       "color": "black"
@@ -645,13 +687,15 @@
     {
       "id": 87,
       "name": "Wooden Table",
-      "department": "Home Appliances",
+      "imgUrl": "https://www.ikea.com/PIAimages/0505273_PE633812_S3.JPG",
+      "department": "HomeAppliance",
       "price": 218.00,
       "color": "brown"
     },
     {
       "id": 88,
       "name": "Small Mirror",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR03zNjF6lcyn8H3oxqwOQqLKb8Mn7eTxCH5-OnZjQL5vjrUJgU",
       "department": "Cosmetics",
       "price": 17.00,
       "color": "red"
@@ -659,6 +703,7 @@
     {
       "id": 89,
       "name": "Cosmetics Soap",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3dMBC9A4MhDFYm9fTpNlQ0CjbGOktZCphFj8YQVMwkioPAm5G",
       "department": "Cosmetics",
       "price": 45.00,
       "color": "pink"
@@ -666,6 +711,7 @@
     {
       "id": 90,
       "name": "Stone Rooster",
+      "imgUrl": "https://i.pinimg.com/236x/36/cb/6e/36cb6e090ac4538117b3d61a8fc8b625--paris-apartments-roosters.jpg",
       "department": "Decorations",
       "price": 984.00,
       "color": "white"
@@ -673,6 +719,7 @@
     {
       "id": 91,
       "name": "Fuel Injector",
+      "imgUrl": "https://i5.walmartimages.com/asr/c273c0ee-453d-433f-aa9a-5bdf8cc9049c_1.8a7bac2ce661825c6ec3e3c4bc902a0f.jpeg?odnWidth=180&odnHeight=180&odnBg=ffffff",
       "department": "Automotive",
       "price": 19.00,
       "color": "red"
@@ -680,6 +727,7 @@
     {
       "id": 92,
       "name": "Granite Eagle",
+      "imgUrl": "https://i.pinimg.com/236x/78/cf/d3/78cfd36d83188c8896d963709806c6ec--design-toscano-eagles.jpg",
       "department": "Decorations",
       "price": 704.00,
       "color": "white"
@@ -687,6 +735,7 @@
     {
       "id": 93,
       "name": "BBQ Grill",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT79_KfR1M7CuHNFCaW-LCTaqZkgegJai4eOZna5D-41vnftOlL",
       "department": "Outdoors",
       "price": 82.00,
       "color": "red"
@@ -694,6 +743,7 @@
     {
       "id": 94,
       "name": "Table Tennis Set",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBikSFoiM1kU9U9bdbfKjuUL1ZdKmWw9JMJg_0Ud45RHe0DCxlhw",
       "department": "Sports",
       "price": 459.00,
       "color": "black"
@@ -701,6 +751,7 @@
     {
       "id": 95,
       "name": "Baseball Tee",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMWcQeqNp5H71HN9dksc1C5GgpGNRhziRnNBipBz14lWBlE_tw",
       "department": "Sports",
       "price": 21.00,
       "color": "blue"
@@ -708,20 +759,23 @@
     {
       "id": 96,
       "name": "Poland Spring Water",
-      "department": "Home Appliances",
+      "imgUrl": "https://i5.walmartimages.com/asr/c263c0b5-4441-4c51-8487-0ec268811605_1.a3f8699897d82860aca1310f24b47de1.jpeg?odnWidth=180&odnHeight=180&odnBg=ffffff",
+      "department": "HomeAppliance",
       "price": 6.00,
       "color": "green"
     },
     {
       "id": 97,
       "name": "Rocking Chair",
-      "department": "Home Appliances",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScwW4eNlCihYjh7z0qHkMx5rd_wLTlnZLtMSdr14Ni35iP3_5zCw",
+      "department": "HomeAppliance",
       "price": 90.00,
       "color": "black"
     },
     {
       "id": 98,
       "name": "Polo Shirt",
+      "imgUrl": "https://cdn-images.farfetch-contents.com/12/73/36/84/12733684_12605786_255.jpg",
       "department": "Apparel",
       "price": 90.00,
       "color": "blue"
@@ -729,6 +783,8 @@
     {
       "id": 99,
       "name": "Hair Conditioner",
+      "imgUrl":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROCNXbmJTxfbWz0zTQIBGL0Dw7Wtvl1Qep9Pktzi7hF-gqvVKFvg",
       "department": "Cosmetics",
       "price": 41.00,
       "color": "white"

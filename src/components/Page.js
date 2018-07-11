@@ -22,8 +22,8 @@ class Page extends React.Component {
   }
 
   handleDeptClick = (dept) => {
+    console.log(dept.split(' ').join(''));
     let selectedDeptProducts = this.state.products.filter(product => {
-      console.log(product.department)
       return (product.department === dept.split(' ').join(''))
 
     })
