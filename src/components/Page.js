@@ -6,8 +6,8 @@ class Page extends React.Component {
     return (
 
         <div class="header">
-          <h1>Amazan App</h1>
-      
+          <h1>Optima</h1>
+
         </div>
 
 
