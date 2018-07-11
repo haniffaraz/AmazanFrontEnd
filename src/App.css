@@ -1,43 +1,43 @@
 span {
-  display: block;
+ display: block;
 }
 
 span.price {
-  font-weight: bold;
-  color: limegreen;
+ font-weight: bold;
+ color: limegreen;
 }
 
 h4 {
-  text-align: center;
+ text-align: center;
 }
 
 li.collection-item {
- display: inline;
+display: inline;
 }
 
 ul.collection {
-  text-align: center;
+ text-align: center;
 }
 
 .nav {
-  background-color: blue;
+ background-color: blue;
 }
 
 .card-content {
-  text-align: center;
+ text-align: center;
 }
 
 .card.small {
-  width: 150px;
-  height: 400px;
+ width: 150px;
+ height: 400px;
 }
 
 .card .card-action {
-  padding: 16px 16px;
-  text-align: center;
+ padding: 16px 16px;
+ text-align: center;
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
-  margin-right: 0px;
-  color: red;
+ margin-right: 0px;
+ color: red;
 }

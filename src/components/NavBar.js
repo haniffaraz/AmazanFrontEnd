@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Page from './Page';
 
 
+
 class NavBar extends React.Component {
   render() {
     return (
