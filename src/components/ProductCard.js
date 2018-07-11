@@ -16,7 +16,8 @@ class ProductCard extends Component {
   <span>{department}</span>
       </Card>
       </div>
-    );
+
+)
   }
 }
 
