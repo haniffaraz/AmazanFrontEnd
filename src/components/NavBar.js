@@ -1,12 +1,13 @@
 import React from 'react';
-import './App.css';
 
 class NavBar extends React.Component {
   render() {
     return (
-      <div className="NavBar">
-      
-      </div>
+        <div className="nav">
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Your Amazan.com</a>
+          </div>
     );
   }
 }
