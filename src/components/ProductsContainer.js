@@ -1,11 +1,35 @@
 import React, { Component } from 'react';
-import './App.css';
+import ProductList from './ProductList';
+import { Collection, CollectionItem } from 'react-materialize';
 
 class ProductsContainer extends Component {
-  render() {
-    return (
-      <div className="ProductsContainer">
 
+  handleClick = (e) => {
+    let dept = e.target.innerText
+    this.props.handleDepmtClick(dept)
+  }
+
+  render() {
+
+    const { selectedProducts, deptName } = this.props
+    return (
+      <div>
+        <div onClick={this.handleClick}>
+        <Collection >
+          <CollectionItem>Apparel</CollectionItem>
+          <CollectionItem>Automotive</CollectionItem>
+          <CollectionItem>Cosmetics</CollectionItem>
+          <CollectionItem>Decorations</CollectionItem>
+          <CollectionItem>Electronics</CollectionItem>
+          <CollectionItem>Home Appliance</CollectionItem>
+          <CollectionItem>Sports</CollectionItem>
+          <CollectionItem>Outdoors</CollectionItem>
+        </Collection>
+      </div>
+      <ProductList
+        deptName={deptName}
+        selectedProducts={selectedProducts}
+      />
       </div>
     );
   }

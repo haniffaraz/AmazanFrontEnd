@@ -1,11 +1,9 @@
 {
-    "arrayOfProducts": [
+    "products": [
         {
 
             "id": 105,
-            "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/M63H24W7JF0-L302-ALTGHOST?wid=1500&fmt=jpeg&qlt=80&op_sharpen=0&op_usm=1.0,1.0,5,0&iccEmbed=0
-https://guesseu.scene7.com/is/image/GuessEU/M63H24W7JF0-L302-ALTGHOST?wid=1500&fmt=jpeg&qlt=80&op_sharpen=0&op_usm=1.0,1.0,5,0&iccEmbed=0
-",
+            "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/M63H24W7JF0-L302-ALTGHOST?wid=1500&fmt=jpeg&qlt=80&op_sharpen=0&op_usm=1.0,1.0,5,0&iccEmbed=0",
             "department": "Apparel",
             "name": "CHECK PRINT SHIRT",
             "price": 110
@@ -13,9 +11,7 @@ https://guesseu.scene7.com/is/image/GuessEU/M63H24W7JF0-L302-ALTGHOST?wid=1500&f
         {
 
             "id": 104,
-            "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/FLGLO4FAL12-BEIBR?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0
-https://guesseu.scene7.com/is/image/GuessEU/FLGLO4FAL12-BEIBR?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0
-",
+            "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/FLGLO4FAL12-BEIBR?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0",
             "department": "Apparel",
             "name": "GLORIA HIGH LOGO SNEAKER",
             "price": 91
@@ -23,9 +19,7 @@ https://guesseu.scene7.com/is/image/GuessEU/FLGLO4FAL12-BEIBR?wid=700&amp;fmt=jp
         {
 
             "id": 103,
-            "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/HWVG6216060-TAN?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0
-https://guesseu.scene7.com/is/image/GuessEU/HWVG6216060-TAN?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0
-",
+            "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/HWVG6216060-TAN?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0",
             "department": "Apparel",
             "name": "CATE RIGID BAG",
             "price": 94.5
@@ -33,9 +27,7 @@ https://guesseu.scene7.com/is/image/GuessEU/HWVG6216060-TAN?wid=700&amp;fmt=jpeg
         {
 
             "id": 102,
-            "imgUrl": "http://guesseu.scene7.com/is/image/GuessEU/WC0001FMSWC-G5?wid=520&fmt=jpeg&qlt=80&op_sharpen=0&op_usm=1.0,1.0,5,0&iccEmbed=0
-http://guesseu.scene7.com/is/image/GuessEU/WC0001FMSWC-G5?wid=520&fmt=jpeg&qlt=80&op_sharpen=0&op_usm=1.0,1.0,5,0&iccEmbed=0
-",
+            "imgUrl": "http://guesseu.scene7.com/is/image/GuessEU/WC0001FMSWC-G5?wid=520&fmt=jpeg&qlt=80&op_sharpen=0&op_usm=1.0,1.0,5,0&iccEmbed=0",
             "department": "Electronics",
             "name": "GUESS CONNECT WATCH",
             "price": 438.9
@@ -43,10 +35,7 @@ http://guesseu.scene7.com/is/image/GuessEU/WC0001FMSWC-G5?wid=520&fmt=jpeg&qlt=8
         {
 
             "id": 101,
-            "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0
-https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0
-",
-
+            "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0",
             "department": "Apparel",
             "name": "'70s RETRO GLAM KEFIAH",
             "price": 20
@@ -68,7 +57,7 @@ https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg
     {
       "id": 2,
       "name": "Incredible Metal Chair",
-      "department": "HomeAppliance",
+      "department": "Home Appliances",
       "price": 844.00,
       "color": "metallic"
     },
@@ -124,7 +113,7 @@ https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg
     {
       "id": 10,
       "name": "Metal Table",
-      "department": "HomeAppliance",
+      "department": "Home Appliances",
       "price": 869.00,
       "color": "tan"
     },
@@ -145,7 +134,7 @@ https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg
     {
       "id": 14,
       "name": "Unbranded Wooden Chair",
-      "department": "HomeAppliance",
+      "department": "Home Appliances",
       "price": 966.00,
       "color": "tan"
     },
@@ -243,7 +232,7 @@ https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg
     {
       "id": 28,
       "name": "Fish Tank",
-      "department": "HomeAppliance",
+      "department": "Home Appliances",
       "price": 734.00,
       "color": "teal"
     },
@@ -285,7 +274,7 @@ https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg
     {
       "id": 34,
       "name": "Small Cotton Towels",
-      "department": "HomeAppliance",
+      "department": "Home Appliances",
       "price": 71.00,
       "color": "white"
     },
@@ -341,7 +330,7 @@ https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg
     {
       "id": 42,
       "name": "Small Loft",
-      "department": "HomeAppliance",
+      "department": "Home Appliances",
       "price": 953.00,
       "color": "black"
     },
@@ -397,7 +386,7 @@ https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg
     {
       "id": 50,
       "name": "Small Heater",
-      "department": "HomeAppliance",
+      "department": "Home Appliances",
       "price": 609.00,
       "color": "silver"
     },
@@ -411,7 +400,7 @@ https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg
     {
       "id": 52,
       "name": "Unbranded water",
-      "department": "HomeAppliance",
+      "department": "Home Appliances",
       "price": 681.00,
       "color": "clear"
     },
@@ -488,7 +477,7 @@ https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg
     {
       "id": 63,
       "name": "Table top",
-      "department": "HomeAppliance",
+      "department": "Home Appliances",
       "price": 26.00,
       "color": "white"
     },
@@ -523,7 +512,7 @@ https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg
     {
       "id": 68,
       "name": "Long Table",
-      "department": "HomeAppliance",
+      "department": "Home Appliances",
       "price": 883.00,
       "color": "brown"
     },
@@ -565,21 +554,21 @@ https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg
     {
       "id": 74,
       "name": "T.V mounter",
-      "department": "HomeAppliance",
+      "department": "Home Appliances",
       "price": 79.00,
       "color": "black"
     },
     {
       "id": 75,
       "name": "Leather Sofas",
-      "department": "HomeAppliance",
+      "department": "Home Appliances",
       "price": 1770.00,
       "color": "black"
     },
     {
       "id": 76,
       "name": "LG Refrigerator",
-      "department": "HomeAppliance",
+      "department": "Home Appliances",
       "price": 510.00,
       "color": "white"
     },
@@ -621,7 +610,7 @@ https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg
     {
       "id": 82,
       "name": "Glass Table",
-      "department": "HomeAppliance",
+      "department": "Home Appliances",
       "price": 450.00,
       "color": "grey"
     },
@@ -656,7 +645,7 @@ https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg
     {
       "id": 87,
       "name": "Wooden Table",
-      "department": "HomeAppliance",
+      "department": "Home Appliances",
       "price": 218.00,
       "color": "brown"
     },
@@ -719,14 +708,14 @@ https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg
     {
       "id": 96,
       "name": "Poland Spring Water",
-      "department": "HomeAppliance",
+      "department": "Home Appliances",
       "price": 6.00,
       "color": "green"
     },
     {
       "id": 97,
       "name": "Rocking Chair",
-      "department": "HomeAppliance",
+      "department": "Home Appliances",
       "price": 90.00,
       "color": "black"
     },
@@ -744,5 +733,5 @@ https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg
       "price": 41.00,
       "color": "white"
     }
-    ]
+  ]
 }
