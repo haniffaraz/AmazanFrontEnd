@@ -9,11 +9,11 @@ class ProductCard extends Component {
     return (
       <div className='col m2'>
       <Card className='small'
-  header={<CardTitle image={imgUrl !== undefined ? imgUrl : "http://via.placeholder.com/150x180"}></CardTitle>}
-  actions={[<a href='#'>Buy it Now!</a>]}>
-  <span>{name}</span>
-<span className="price">${price}</span>
-  <span>{department}</span>
+          header={<CardTitle image={imgUrl !== undefined ? imgUrl : "http://via.placeholder.com/150x180"}></CardTitle>}
+          actions={[<a href='#'>Buy it Now!</a>]}>
+          <span>{name}</span>
+        <span className="price">${price}</span>
+          <span>{department}</span>
       </Card>
       </div>
 

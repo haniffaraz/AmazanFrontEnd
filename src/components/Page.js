@@ -1,5 +1,6 @@
 import React from 'react';
 import ProductsContainer from './ProductsContainer';
+import Cart from './Cart.js'
 
 const Url = 'http://localhost:3000/products'
 
@@ -8,7 +9,8 @@ class Page extends React.Component {
   state = {
     products: [],
     selectedProducts:[],
-    departmentName: "All Products"
+    departmentName: "All Products",
+    cart:[]
   }
 
   componentDidMount () {
@@ -33,6 +35,11 @@ class Page extends React.Component {
     })
   }
 
+  handleSelectedCartClick = (cardItem) =>{
+    console.log(cardItem);
+  }
+
+
   render() {
     return (
       <div className="Page">
@@ -41,7 +48,9 @@ class Page extends React.Component {
           products={this.state.products}
           selectedProducts={this.state.selectedProducts}
           handleDepmtClick={this.handleDeptClick}
+          handleCartClick={this.handleSelectedCartClick}
         />
+        <Cart />
       </div>
     );
   }
