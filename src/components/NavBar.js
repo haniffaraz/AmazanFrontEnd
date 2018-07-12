@@ -1,19 +1,22 @@
 import React from 'react';
 import { Navbar, NavItem } from 'react-materialize';
-import { Switch } from 'react-router-dom';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Page from './Page';
+<<<<<<< HEAD
 import Cart from './Cart';
 
 
+=======
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+>>>>>>> refs/remotes/origin/master
 
 class NavBar extends React.Component {
   render() {
     return (
       <div>
         <Navbar brand='Optima' center='true' className="nav">
-          <NavItem>Home</NavItem>
+          <NavItem href="/">Home</NavItem>
           <NavItem href='#'>Sign Up</NavItem>
+<<<<<<< HEAD
           <NavItem>Cart</NavItem>
         </Navbar>
 
@@ -22,15 +25,13 @@ class NavBar extends React.Component {
             {/* <NavItem href='#'><Route exact path='/cart' component={Cart} /></NavItem> */}
             <Route exact path='/cart' component={Cart} />
           </Switch>
+=======
+        <NavItem href="/cart">Cart</NavItem>
+        </Navbar>
+>>>>>>> refs/remotes/origin/master
       </div>
 
   )}
 }
 
 export default NavBar;
-//
-// <Switch>
-//   <Route exact path='/' component={Page} />
-//   <Route exact path='/signup' component={Signup} />
-//   <Route exact path='/cart' component={Cart} />
-// </Switch>

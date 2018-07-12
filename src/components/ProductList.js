@@ -4,7 +4,12 @@ import ProductCard from './ProductCard';
 class ProductList extends Component {
   render() {
     const productCards = this.props.selectedProducts.map(product => {
-      return <ProductCard key={product.id} product={product} />
+      return <ProductCard
+                key={product.id}
+                product={product}
+                handleItem={this.props.handleItem}
+                cartView={this.props.cartView}
+              />
     })
     return (
       <div>

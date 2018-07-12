@@ -14,6 +14,16 @@ class Page extends React.Component {
   }
 
   componentDidMount () {
+    if(this.props.cartView) {
+      let cartItems = JSON.parse(localStorage.cartItems);
+      this.setState({
+        cart: cartItems,
+        products: cartItems,
+        selectedProducts: cartItems.slice(0,20),
+        departmentName: "Cart",
+        cartView: this.props.cartView
+      });
+    } else {
     fetch(Url)
       .then(r => r.json())
       .then(products =>
@@ -21,13 +31,12 @@ class Page extends React.Component {
           products,
           selectedProducts: products.slice(0,20)
         }))
+      }
   }
 
   handleDeptClick = (dept) => {
-    console.log(dept.split(' ').join(''));
     let selectedDeptProducts = this.state.products.filter(product => {
       return (product.department === dept.split(' ').join(''))
-
     })
     this.setState({
       selectedProducts: selectedDeptProducts,
