@@ -11,7 +11,7 @@ class ProductsContainer extends Component {
 
   render() {
 
-    const { selectedProducts, deptName } = this.props
+    const { selectedProducts, deptName, handleCard, cartView } = this.props
     return (
       <div>
         <div onClick={this.handleClick}>
@@ -27,8 +27,10 @@ class ProductsContainer extends Component {
         </Collection>
       </div>
       <ProductList
+        handleItem={handleCard}
         deptName={deptName}
         selectedProducts={selectedProducts}
+        cartView={cartView}
       />
       </div>
     );

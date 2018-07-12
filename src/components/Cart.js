@@ -9,30 +9,11 @@ class Page extends React.Component {
   state = {
     products: [],
     selectedProducts:[],
-    departmentName: "All Products",
-    cart: [],
-    cartView: false
+    departmentName: "Cart"
   }
 
   componentDidMount () {
-    if(this.props.cartView) {
-      let cartItems = JSON.parse(localStorage.cartItems);
-      this.setState({
-        cart: cartItems,
-        products: cartItems,
-        selectedProducts: cartItems.slice(0,20),
-        departmentName: "Cart",
-        cartView: this.props.cartView
-      });
-    } else {
-    fetch(Url)
-      .then(r => r.json())
-      .then(products =>
-        this.setState({
-          products,
-          selectedProducts: products.slice(0,20)
-        }))
-      }
+
   }
 
   handleDeptClick = (dept) => {
@@ -46,20 +27,9 @@ class Page extends React.Component {
   }
 
   handleCardClick = (card) => {
-    if (this.props.cartView) {
-      var filteredCards = this.state.cart.filter(cartCard => cartCard.id !== card.id);
-      this.setState({
-        cart: filteredCards,
-        products: filteredCards,
-        selectedProducts:filteredCards,
-      });
-      localStorage.cartItems = JSON.stringify(filteredCards);
-    } else {
     this.setState({
       cart: [...this.state.cart, card]
-    });
-    localStorage.cartItems = JSON.stringify(this.state.cart);
-  }
+    })
   }
 
   render() {
@@ -71,7 +41,6 @@ class Page extends React.Component {
           selectedProducts={this.state.selectedProducts}
           handleDepmtClick={this.handleDeptClick}
           handleCard={this.handleCardClick}
-          cartView={this.state.cartView}
         />
       </div>
     );
