@@ -23,6 +23,15 @@ ul.collection {
  background-color: blue;
 }
 
+nav .brand-logo {
+  width: 100%
+}
+
+nav1 .brand-logo {
+  text-align: center;
+  width: 100%
+}
+
 .card-content {
  text-align: center;
 }
