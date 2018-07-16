@@ -1,68 +1,13 @@
-<<<<<<< HEAD
-import React from 'react'
-
- class Cart extends React.Component {
-   render(){
-     return(
-       <div>
-
-
-       </div>
-     )
-   }
-
- }
-
- export default Cart;
-=======
-import React from 'react';
-import ProductsContainer from './ProductsContainer';
-import Cart from './Cart';
-
-const Url = 'http://localhost:3000/products'
-
-class Page extends React.Component {
-
-  state = {
-    products: [],
-    selectedProducts:[],
-    departmentName: "Cart"
-  }
-
-  componentDidMount () {
-
-  }
-
-  handleDeptClick = (dept) => {
-    let selectedDeptProducts = this.state.products.filter(product => {
-      return (product.department === dept.split(' ').join(''))
-    })
-    this.setState({
-      selectedProducts: selectedDeptProducts,
-      departmentName: dept
-    })
-  }
-
-  handleCardClick = (card) => {
-    this.setState({
-      cart: [...this.state.cart, card]
-    })
-  }
-
-  render() {
-    return (
-      <div className="Page">
-        <ProductsContainer
-          deptName={this.state.departmentName}
-          products={this.state.products}
-          selectedProducts={this.state.selectedProducts}
-          handleDepmtClick={this.handleDeptClick}
-          handleCard={this.handleCardClick}
-        />
-      </div>
-    );
-  }
-}
-
-export default Page;
->>>>>>> refs/remotes/origin/master
+// import React from 'react';
+//  import Page from './components/Page';
+//  import NavBar from './components/NavBar'
+// import { Switch } from 'react-router-dom';
+// import { BrowserRouter as Router, Route } from 'react-router-dom';
+//
+// const cartPage = (props) => {
+//  return (
+//    <Page
+//       cartView={true}
+//     />
+//  );
+// }
