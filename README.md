@@ -1,3 +1,6 @@
+Optima- an e-commerce web application
+- made using rails as the backend and javascript, HTML, and CSS as the frontend
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
