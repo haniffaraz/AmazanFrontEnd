@@ -39,14 +39,6 @@ export const data = [
             "name": "'70s RETRO GLAM KEFIAH",
             "price": 20
         },
-      {
-        "id": 100,
-        "imgUrl": "http://www.antiqueathlete.com/antique-baseball/vintage-baseball-1880-figure-eight.jpg",
-      "name": "Baseball",
-      "department": "Sports",
-      "price": 621.00,
-      "color": "white"
-    },
     {
       "id": 1,
       "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/410L14AUZbL._SL500_AC_SS350_.jpg",
@@ -120,14 +112,6 @@ export const data = [
       "color": "yellow"
     },
     {
-      "id": 10,
-      "imgUrl": "http://quantbait.com/i/2018/07/metal-dining-table-set-custom-made-dining-room-furniture-industrial-dining-table-legs-industrial-kitchen-table-1092x692.jpg",
-      "name": "Metal Table",
-      "department": "HomeAppliance",
-      "price": 869.00,
-      "color": "tan"
-    },
-    {
       "id": 12,
       "imgUrl":"https://c1552172.ssl.cf0.rackcdn.com/283918_x800.jpg",
       "name": "Front and Rear Brakes",
@@ -190,14 +174,6 @@ export const data = [
       "department": "Outdoors",
       "price": 45.00,
       "color": "sky blue"
-    },
-    {
-      "id": 20,
-      "imgUrl":"http://iamanisraeli.me/wp-content/uploads/2018/02/rustic-wooden-table-good-round-rustic-coffee-table-on-rustic-wood-round-coffee-table-rustic-wood-coffee-table-rustic-wood-kitchen-table-and-chairs.jpg",
-      "name": "Rustic Wooden Table",
-      "department": "Decorations",
-      "price": 544.00,
-      "color": "tan"
     },
     {
       "id": 21,
@@ -280,14 +256,6 @@ export const data = [
       "color": "black"
     },
     {
-      "id": 31,
-      "name": "Unbranded Shirt",
-      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkkK_A-l4GOfE5NjAge7jWBRMfZm5O6_jd1JRw3Vo9JWamUB22dA",
-      "department": "Apparel",
-      "price": 365.00,
-      "color": "red"
-    },
-    {
       "id": 32,
       "name": "Windshield Fluid",
       "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZmoIdQJjgcTb7Z407DIrEh9Xhv57MBwfmXJb6HEvNHVllRB5O",
@@ -328,14 +296,6 @@ export const data = [
       "color": "purple"
     },
     {
-      "id": 37,
-      "imgUrl":"http://handmadesoapdesign.com/wp-content/uploads/2016/05/018_SoapMock.jpg",
-      "name": "Future Soap",
-      "department": "Cosmetics",
-      "price": 528.00,
-      "color": "pink"
-    },
-    {
       "id": 38,
       "imgUrl":"https://i.ebayimg.com/images/g/tRYAAOSw3ZRY-c6a/s-l300.png",
       "name": "Fresh Flowers",
@@ -358,14 +318,6 @@ export const data = [
       "department": "Automotive",
       "price": 229.00,
       "color": "white"
-    },
-    {
-      "id": 41,
-      "imgUrl":"http://ranchoavellanas.com/wp-content/uploads/2018/02/fashionable-ideas-cool-outdoor-furniture-cleaning-at-spring-time-all-home-decorations.jpg",
-      "name": "Rubber Tuna",
-      "department": "Outdoors",
-      "price": 369.00,
-      "color": "cyan"
     },
     {
       "id": 42,
@@ -392,14 +344,6 @@ export const data = [
       "color": "violet"
     },
     {
-      "id": 45,
-      "imgUrl":"https://asia.playstation.com/content/pscom/as/en/index/_jcr_content/par/mainvisual_3909/imagePc.img.png/1507181399447.png",
-      "name": "Gaming Computer",
-      "department": "Electronics",
-      "price": 644.00,
-      "color": "transparent"
-    },
-    {
       "id": 46,
       "imgUrl":"https://www.beatsbydre.com/content/dam/beats/web/pdp/beats-solo3-wireless/product_card/rosegold_V2.png",
       "name": "Beats by Dre",
@@ -408,28 +352,12 @@ export const data = [
       "color": "purple"
     },
     {
-      "id": 47,
-      "imgUrl":"https://www.patagonia.com/dis/dw/image/v2/ABBM_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw33dc917e/images/hi-res/21215_BLK.jpg?sw=750&sh=750&sm=fit&sfrm=png",
-      "name": "Active Pants",
-      "department": "Apparel",
-      "price": 920.00,
-      "color": "sky blue"
-    },
-    {
       "id": 48,
       "imgUrl":"https://images-na.ssl-images-amazon.com/images/I/61yMI1-fXQL._SL1000_.jpg",
       "name": "Softballs",
       "department": "Sports",
       "price": 713.00,
       "color": "yellow"
-    },
-    {
-      "id": 49,
-      "imgUrl":"https://www.cashforyourmac.com/assets/products/sell_macbook_air-2372289158289f2138587a83677eccfa594a522e88f6cf52953487c1d3b5e278.jpg",
-      "name": "Refined Computer",
-      "department": "Electronics",
-      "price": 322.00,
-      "color": "black"
     },
     {
       "id": 50,
@@ -446,14 +374,6 @@ export const data = [
       "department": "Apparel",
       "price": 956.00,
       "color": "white"
-    },
-    {
-      "id": 52,
-      "name": "Unbranded water",
-      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqc9jdWCKuNK6F5gIVEPW4SpBZafLemJJDSvJfyXgAzOnb7sTt6g",
-      "department": "HomeAppliance",
-      "price": 681.00,
-      "color": "clear"
     },
     {
       "id": 53,
@@ -480,28 +400,12 @@ export const data = [
       "color": "blue"
     },
     {
-      "id": 56,
-      "name": "Brake Fluid",
-      "imgUrl": "http://www.pieces-auto-competition.com/2983-home_default/1336.jpg",
-      "department": "Automotive",
-      "price": 96.00,
-      "color": "red"
-    },
-    {
       "id": 57,
       "name": "Computer MotherBoard",
       "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/61zizhqM97L._SX355_.jpg",
       "department": "Electronics",
       "price": 376.00,
       "color": "grey"
-    },
-    {
-      "id": 58,
-      "name": "Awesome HDMI cable",
-      "imgUrl": "https://cdn3.volusion.com/prtdg.mwore/v/vspfiles/photos/HD-MMEQ-100-2T.jpg?1525850298",
-      "department": "Electronics",
-      "price": 84.00,
-      "color": "lime"
     },
     {
       "id": 59,
@@ -632,22 +536,6 @@ export const data = [
       "color": "black"
     },
     {
-      "id": 75,
-      "name": "Leather Sofas",
-      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUvXkezPDWrrY7Nn7hT3X1QPVVL_IpsO9y0hSez1gU08zeB679kQ",
-      "department": "HomeAppliance",
-      "price": 1770.00,
-      "color": "black"
-    },
-    {
-      "id": 76,
-      "name": "LG Refrigerator",
-      "imgUrl": "http://www.pricedealsindia.com/pdicontent/static/images/refrigerators/175x225/RFREFECANSZMZV8W.jpg",
-      "department": "HomeAppliance",
-      "price": 510.00,
-      "color": "white"
-    },
-    {
       "id": 77,
       "name": "Echo",
       "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvPPO12LqPTP6XwZU8IEm4VORCsZG7o_sxY8QW9drmr6l8Zik7",
@@ -696,14 +584,6 @@ export const data = [
       "color": "grey"
     },
     {
-      "id": 83,
-      "name": "Gucci Shirt",
-      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn22ceHOLanIvt-BqO0znRrifMedU0tbGDtH0GGL30XhvfBmpN",
-      "department": "Apparel",
-      "price": 672.00,
-      "color": "green"
-    },
-    {
       "id": 84,
       "name": "Elizabeth Arden Whitening Cream",
       "imgUrl": "https://res.cloudinary.com/feelunique-com/image/upload/f_auto,t_product_listing/v1/live/product/main-image/51876/lyy1zak9bwwbfqcezuhq.jpg",
@@ -734,14 +614,6 @@ export const data = [
       "department": "HomeAppliance",
       "price": 218.00,
       "color": "brown"
-    },
-    {
-      "id": 88,
-      "name": "Small Mirror",
-      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR03zNjF6lcyn8H3oxqwOQqLKb8Mn7eTxCH5-OnZjQL5vjrUJgU",
-      "department": "Cosmetics",
-      "price": 17.00,
-      "color": "red"
     },
     {
       "id": 89,
