@@ -7,7 +7,7 @@ class ProductList extends Component {
       return <ProductCard
                 key={product.id}
                 product={product}
-                handleItem={this.props.handleItem}
+                // handleItem={this.props.handleItem}
                 cartView={this.props.cartView}
               />
     })

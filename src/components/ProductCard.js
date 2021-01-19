@@ -3,18 +3,18 @@ import { CardTitle, Card } from 'react-materialize';
 
 class ProductCard extends Component {
 
- handleItemClick = () => {
-   this.props.handleItem(this.props.product)
- }
+//  handleItemClick = () => {
+//    this.props.handleItem(this.props.product)
+//  }
 
  render() {
 
-     const { name, price, department, imgUrl } = this.props.product
+     const { name, price, department, imgUrl, id } = this.props.product
    return (
-     <div onClick={this.handleItemClick} className='col m2'>
+     <div className='col m2'>
      <Card className='small'
        header={<CardTitle image={imgUrl !== undefined ? imgUrl : "http://via.placeholder.com/150x180"}></CardTitle>}
-       actions={this.props.cartView == true ? [<a href='#'>Remove!</a>] : [<a  href='#'>Buy it Now!</a>]}>
+       actions={this.props.cartView === true ? [<a key={id} href='##'>Remove!</a>] : [<a key={id} href='##'>Buy it Now!</a>]}>
        <span>{name}</span>
       <span className="price">${price}</span>
        <span>{department}</span>

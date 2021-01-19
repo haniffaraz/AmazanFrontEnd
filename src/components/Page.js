@@ -1,8 +1,6 @@
 import React from 'react';
 import ProductsContainer from './ProductsContainer';
-import Cart from './Cart';
-
-const Url = 'http://localhost:3000/products'
+import { data } from '../data';
 
 class Page extends React.Component {
 
@@ -12,31 +10,31 @@ class Page extends React.Component {
    departmentName: "All Products",
    cart: [],
    cartView: false,
-   // cartItems: []
+   cartItems: []
  }
 
  componentDidMount () {
-   if(this.props.cartView) {
-     localStorage.cartItems = localStorage.cartItems || JSON.stringify([]);
-     let cartItems = JSON.parse(localStorage.cartItems);
+  //  if(this.props.cartView) {
+  //    localStorage.cartItems = localStorage.cartItems || JSON.stringify([]);
+  //    let cartItems = JSON.parse(localStorage.cartItems);
 
-     this.setState({
-       cart: cartItems,
-       products: cartItems,
-       selectedProducts: cartItems.slice(0,20),
-       departmentName: "Cart",
-       cartView: this.props.cartView
-     });
-   } else {
-   fetch(Url)
-     .then(r => r.json())
-     .then(products =>
+  //    this.setState({
+  //      cart: cartItems,
+  //      products: cartItems,
+  //      selectedProducts: cartItems.slice(0,20),
+  //      departmentName: "Cart",
+  //      cartView: this.props.cartView
+  //    });
+  //  } else {
+  //  fetch(Url)
+  //    .then(r => r.json())
+  //    .then(products =>
        this.setState({
-         products,
-         selectedProducts: products.slice(0,20)
-       }))
+         products: data,
+         selectedProducts: data.slice(0,20)
+       })
      }
- }
+ 
 
  handleDeptClick = (dept) => {
    let selectedDeptProducts = this.state.products.filter(product => {
@@ -48,22 +46,22 @@ class Page extends React.Component {
    })
  }
 
- handleCardClick = (card) => {
-   if (this.props.cartView) {
-     var filteredCards = this.state.cart.filter(cartCard => cartCard.id !== card.id);
-     this.setState({
-       cart: filteredCards,
-       products: filteredCards,
-       selectedProducts:filteredCards,
-     });
-     localStorage.cartItems = JSON.stringify(filteredCards);
-   } else {
-   this.setState({
-     cart: [...this.state.cart, card]
-   });
-   localStorage.cartItems = JSON.stringify(this.state.cart);
- }
- }
+//  handleCardClick = (card) => {
+//    if (this.props.cartView) {
+//      var filteredCards = this.state.cart.filter(cartCard => cartCard.id !== card.id);
+//      this.setState({
+//        cart: filteredCards,
+//        products: filteredCards,
+//        selectedProducts:filteredCards,
+//      });
+//      localStorage.cartItems = JSON.stringify(filteredCards);
+//    } else {
+//    this.setState({
+//      cart: [...this.state.cart, card]
+//    });
+//    localStorage.cartItems = JSON.stringify(this.state.cart);
+//  }
+//  }
 
  render() {
    return (
@@ -73,7 +71,7 @@ class Page extends React.Component {
          products={this.state.products}
          selectedProducts={this.state.selectedProducts}
          handleDepmtClick={this.handleDeptClick}
-         handleCard={this.handleCardClick}
+        //  handleCard={this.handleCardClick}
          cartView={this.state.cartView}
        />
      </div>
